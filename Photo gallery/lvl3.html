@@ -1,0 +1,186 @@
+<!Doctype html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head><title>index</title><p style="text-align:center"><img src="images/game start.png" alt="Press Start" style="height:35%; width:35%" ></img></p></head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+<body background="images/bg.jpg">
+
+<article>
+<ul>
+  <li><a href="lvl1.html">Level 1</a></li>
+  <li><a href="lvl2.html">Level 2</a></li>
+  <li><a class="active" href="lvl3.html">Level 3</a></li>
+  <li style="text-align:center; font-family:verdana; color:yellow">
+
+<p> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<strong>Level up series(L.U.S.). Take a look at each evolution!</strong></p></li>
+</ul>
+ 
+<div class="w3-content w3-display-container" style="width:700px">
+
+<div class="mySlides fade">
+    <img src="images/lvl up.jpg" style="width:80%;">
+    <div class="text" style="text-align:center; font-family:impact; color:white; font-size:20px;">LEVEL UP!!!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/EX 3 gashat.jpg" style="width:25%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#EC0000; font-size:20px;">Gekitotsu Robot</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/level 3 (EX).jpg" style="width:22%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#EC0000; font-size:20px;">Action Gamer LVL 3!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/B 3 gashat.jpg" style="width:25%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#E1FF0A; font-size:20px;">DoReMiFa Beat</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/level 3 (B).jpg" style="width:21%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#E1FF0A; font-size:20px;">RPG Gamer LVL 3!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/S 3 gashat.jpg" style="width:25%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#FF790A; font-size:20px;">Jet Combat</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/level 3 (S).jpg" style="width:26%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#FF790A; font-size:20px;">Shooting Gamer LVL 3!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/L 3 gashat.jpg" style="width:25%;">
+    <div class="text" style="text-align:center; font-family:impact; color:black; font-size:20px;">Giri Giri Chanbara</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/level 3 (L).jpg" style="width:21%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#black; font-size:20px;">Racing Gamer LVL 3!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/G 3 gashat.jpg" style="width:25%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#A1DD00; font-size:20px;">Shakariki Sport</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images/level 3 (G).jpg" style="width:24%;">
+    <div class="text" style="text-align:center; font-family:impact; color:#A1DD00; font-size:20px;">Alter-Action Gamer LVL 3!</div>
+  </div>
+
+<br>
+<br>
+<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)" background="red">&laquo; Previous</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)"  background="red">Next &raquo;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span> 
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span> 
+</div>
+</article>
+
+<script>
+var slideNum = 1; //This is for the movement of slideshow
+showDivs(slideNum);
+function plusDivs(n) {
+  showDivs(slideNum += n);
+}
+function currentDiv(n) {
+  showDivs(slideNum = n);
+}
+function showDivs(n) {
+  var a;
+  var b = document.getElementsByClassName("mySlides");
+  var c = document.getElementsByClassName("demo");
+  if (n > b.length) {slideNum = 1}    
+  if (n < 1) {slideNum = b.length}
+  for (a = 0; a < b.length; a++) {
+     b[a].style.display = "none";  
+  }
+  for (a = 0; a < c.length; a++) {
+     c[a].className = c[a].className.replace(" w3-white", "");
+  }
+  b[slideNum-1].style.display = "block";  
+  c[slideNum-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
